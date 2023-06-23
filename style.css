@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+p {
+  color: black
+}
+
+.title {
+  text-transform: uppercase;
+  color: purple;
+  font-family: cursive;
+}

@@ -8,15 +8,17 @@ body {
   font-weight: 100;
 }
 
-p {
-  color: black
+h3 {
+  text-align: left;
 }
 
-.title {
-  text-transform: uppercase;
-  color: purple;
-  font-family: cursive;
+p {
+  color: black;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
 }
+
+
 
 a[href]{
    color: pink;
@@ -28,4 +30,33 @@ a:hover {
 
 p:hover {
   background-color: lightblue;
+}
+
+.title {
+  text-transform: uppercase;
+  color: purple;
+  font-family: cursive;
+}
+
+.image {
+  background-image: url("https://images.weddingvogue.cn/i/8/ec/8ec25767-b349-11ed-bed8-0242ac140004.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
 }

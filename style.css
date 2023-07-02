@@ -8,8 +8,34 @@ body {
   font-weight: 100;
 }
 
+#header {
+  background-image: url('https://onefabday.com/wp-content/uploads/2020/06/25-Beautifully-Styled-Outdoor-Wedding-Ceremonies25-Beautifully-Styled-Outdoor-Wedding-Ceremonies2.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  height: 350px;
+  width: 100%;
+}
+
+#header .title {
+  position: relative;
+  top: 60px;
+  width: 620px;
+  margin: 0 auto;
+  color: white;
+  font-size: 28px;
+  padding: 10px;
+  text-align: center;
+}
+
+#header .title #wed {
+  font-family: "Georgia";
+  font-size: 24px;
+}
+
+
 h3 {
   text-align: left;
+
 }
 
 p {
@@ -21,7 +47,7 @@ p {
 
 
 a[href]{
-   color: purple;
+   color: CornFlowerBlue;
 }
 
 a:hover {
@@ -46,7 +72,6 @@ p:hover {
 }
 
 .caption {
-  display: block;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   font-style: italic;
@@ -58,9 +83,5 @@ p:hover {
   width: 10%;
   background-color: white;
   color: black;
-  opacity: 0.75;
-}
-
-.background {
-  background-image: url('https://img.freepik.com/free-photo/blue-sky-clouds-watercolor-texture-background_1409-1216.jpg?w=2000');
+  border: 2px solid white;
 }

@@ -32,9 +32,15 @@ body {
   font-size: 24px;
 }
 
+nav ul {
+  width: 100px;
+  margin: 50px auto;
+}
 
 h3 {
   text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
 
 }
 
@@ -42,8 +48,20 @@ p {
   color: black;
   font-family: 'Georgia', serif;
   font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 0px;
 }
 
+figure {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+table {
+  width: 600px;
+  margin: 0 auto;
+}
 
 
 a[href]{

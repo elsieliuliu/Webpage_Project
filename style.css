@@ -26,6 +26,7 @@ body {
   font-size: 28px;
   padding: 60px 10px;
   text-align: center;
+  
 }
 
 #header .title #wed {
@@ -110,4 +111,33 @@ p:hover {
   background-color: white;
   color: black;
   border: 2px solid white;
+}
+
+.spectrum {
+  max-width: 800px;
+  color: #FFFFFF;
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Roast types */
+.green {
+  background-color: #6fae7d;
+}
+
+.violet {
+  background-color: #7c3468;
+}
+
+.pink {
+  background-color: #d57dc1;
+}
+
+.fall {
+  background-color: #df684a;
+}
+
+.green h4{
+  margin:0, 10px;
+  padding: 0, 10px;
 }
